@@ -1,0 +1,129 @@
+@import url('./root.css');
+
+/* Acordion */
+.acordion {
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: var(--n1);
+    padding: var(--n2) var(--n3);
+    transition: background 0.2s ease-in-out;
+}
+.acordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    font-weight: 400;
+    i {
+        transition: transform 0.2s ease-in-out;
+    }
+}
+.acordion-body {
+    margin-top: var(--n2);
+}
+/* Acordion animation */
+.acordion[open] {
+    background-color: var(--white);
+    border: 2px solid var(--blue);
+    .acordion-header {
+        color: var(--blue);
+        font-weight: 500;
+        i{
+            transform: rotate(90deg);
+        }
+    }
+    .acordion-body {
+        color: var(--black);
+    }
+}
+/* Acordion Colors Variants */
+.acordion-blue {
+    background-color: var(--blue);
+    color: var(--white);
+}
+.acordion-blue[open] {
+    border: 2px solid var(--blue);
+    .acordion-header {
+        color: var(--blue);
+    }
+}
+.acordion-indigo {
+    background-color: var(--indigo);
+    color: var(--white);
+}
+.acordion-indigo[open] {
+    border: 2px solid var(--indigo);
+    .acordion-header {
+        color: var(--indigo);
+    }
+}
+.acordion-purple {
+    background-color: var(--purple);
+    color: var(--white);
+}
+.acordion-purple[open] {
+    border: 2px solid var(--purple);
+    .acordion-header {
+        color: var(--purple);
+    }
+}
+.acordion-pink {
+    background-color: var(--pink);
+    color: var(--white);
+}
+.acordion-pink[open] {
+    border: 2px solid var(--pink);
+    .acordion-header {
+        color: var(--pink);
+    }
+}
+.acordion-red {
+    background-color: var(--red);
+    color: var(--white);
+}
+.acordion-red[open] {
+    border: 2px solid var(--red);
+    .acordion-header {
+        color: var(--red);
+    }
+}
+.acordion-orange {
+    background-color: var(--orange);
+    color: var(--white);
+}
+.acordion-orange[open] {
+    border: 2px solid var(--orange);
+    .acordion-header {
+        color: var(--orange);
+    }
+}
+.acordion-yellow {
+    background-color: var(--yellow);
+    color: var(--white);
+}
+.acordion-yellow[open] {
+    border: 2px solid var(--yellow);
+    .acordion-header {
+        color: var(--yellow);
+    }
+}
+.acordion-green {
+    background-color: var(--green);
+    color: var(--white);
+}
+.acordion-green[open] {
+    border: 2px solid var(--green);
+    .acordion-header {
+        color: var(--green);
+    }
+}
+.acordion-teal {
+    background-color: var(--teal);
+    color: var(--white);
+}
+.acordion-teal[open] {
+    border: 2px solid var(--teal);
+    .acordion-header {
+        color: var(--teal);
+    }
+}
